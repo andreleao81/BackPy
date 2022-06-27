@@ -78,6 +78,10 @@ class Room(Course):
 
 
 def main():
+    courses = list()
+    students = list()
+    rooms = list()
+    professors = list()
     #while True:
     #   print("Menu:")
     pass
@@ -92,55 +96,3 @@ if __name__ == '__main__':
 
         
         
-
-
-
-
-
-
-
-
-
-'''
-
-
-# Create class "Student"
-class Student:
-    # Constructor
-    def __init__(self, name, disciplins, timetable,2):
-        self.name = name
-        self.desiciplins = disciplins
-        self.m1 = m1
-        self.m2 = m2
-         
-    # Function to create and append new student   
-    def accept(self, Name, Rollno, marks1, marks2 ):
-        # use  ' int(input()) ' method to take input from user
-        ob = Student(Name, Rollno, marks1, marks2 )
-        ls.append(ob)
-  
-    # Function to display student details     
-    def display(self, ob):
-            print("Name   : ", ob.name)
-            print("RollNo : ", ob.rollno)
-            print("Marks1 : ", ob.m1)
-            print("Marks2 : ", ob.m2)
-            print("\n")    
-         
-    # Search Function    
-    def search(self, rn):
-        for i in range(ls.__len__()):
-            if(ls[i].rollno == rn):
-                return i       
-  
-    # Delete Function                                  
-    def delete(self, rn):
-        i = obj.search(rn)  
-        del ls[i]
-  
-    # Update Function   
-    def update(self, rn, No):
-        i = obj.search(rn)
-        roll = No
-        ls[i].rollno = roll;
-        '''
